@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  category controller
+ * comissio controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::category.category');
+module.exports = createCoreController('api::comissio.comissio');
