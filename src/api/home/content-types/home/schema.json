@@ -57,16 +57,6 @@
         "files"
       ]
     },
-    "comissions": {
-      "type": "component",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "comissions.comissio",
-      "repeatable": true
-    },
     "faqs": {
       "type": "component",
       "pluginOptions": {
