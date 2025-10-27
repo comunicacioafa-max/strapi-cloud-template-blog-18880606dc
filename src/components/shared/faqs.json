@@ -10,7 +10,8 @@
       "required": true
     },
     "answer": {
-      "type": "string"
+      "type": "richtext",
+      "required": true
     }
   },
   "config": {}

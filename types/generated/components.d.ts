@@ -22,7 +22,7 @@ export interface SharedFaqs extends Struct.ComponentSchema {
     displayName: 'faqs';
   };
   attributes: {
-    answer: Schema.Attribute.String;
+    answer: Schema.Attribute.RichText & Schema.Attribute.Required;
     question: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
